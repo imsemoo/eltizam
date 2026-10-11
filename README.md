@@ -6,10 +6,14 @@ Corporate website for a Sharia-compliance advisory firm.
 
 ## Pages
 
-`home` · `about-us` · `services` · `sharia-council` · `legal-certificates` · `contact-us`
+`home` · `about-us` · `services` · `sharia-counci` · `legal-certificates` · `contact-us`
 
 ## Built with
 
-HTML5 · CSS3 · JavaScript · Font Awesome · custom web fonts
+- Semantic HTML, one stylesheet (`css/site.css`) and one script (`js/site.js`) shared by every page
+- [GSAP](https://gsap.com/) + ScrollTrigger for motion, disabled under `prefers-reduced-motion`
+- [Phosphor Icons](https://phosphoricons.com/)
+- Cabinet Grotesk and Satoshi (Fontshare), Aref Ruqaa (Google Fonts)
+- Light and dark themes follow the visitor's system setting
 
-No build step — open `home.html`.
+Libraries and fonts load from CDNs. No build step — open `home.html`.
